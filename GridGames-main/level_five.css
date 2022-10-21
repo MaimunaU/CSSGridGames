@@ -1,0 +1,36 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 40px 35px 300px 40px;
+}
+
+#title {
+  grid-column-end: span 1;
+}
+
+#navbar {
+  grid-column-start: span 2;
+}
+
+#sidebar {
+  writing-mode: vertical-rl;
+  width: 20px;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+}
+
+.friend {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+
+.family {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+#footer {
+  grid-column-start: span 2;
+}
+
+
+
