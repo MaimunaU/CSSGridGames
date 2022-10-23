@@ -27,3 +27,25 @@
 #footer {
   grid-column-start: span 5;
 }
+
+/* Level 5
+.container {
+    display: grid;
+    grid-template-columns: 150px 600px;
+    grid-template-rows: 40px 35px 300px 40px;
+  }
+  
+  #navbar {
+    grid-column-start: span 2;
+  }
+  
+  #sidebar {
+    writing-mode: vertical-rl;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+  }
+  
+  #footer {
+    grid-column-start: span 2;
+  }
+*/
